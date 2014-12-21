@@ -2,11 +2,10 @@
   "name": "jxnblk-api",
   "version": "1.0.0",
   "description": "Data for Jxnblk",
-  "main": "index.js",
+  "main": "index.json",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Brent Jackson",
   "license": "MIT"
 }
