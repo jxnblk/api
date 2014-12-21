@@ -50,7 +50,7 @@ data.projects = {
     { name: 'MrsJxn', link: '//mrsjxn.com', description: 'Post-future beats' },
     { name: 'Microbeats', link: '//microbeats.cc', description: 'Beats created in under an hour' },
     { name: 'Skullcat', link: '//jxnblk.com/skullcat', description: 'A avatar fur Mrmrs' },
-    //{ name: 'Gifolio', link: '//jxnblk.com/gifolio', description: 'GIF portfolio' },
+    { name: 'Gifolio', link: '//jxnblk.com/gifolio', description: 'GIF portfolio' },
   ]
 };
 
