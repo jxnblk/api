@@ -42,15 +42,18 @@ data.projects = {
     { name: 'Principles', link: '//jxnblk.com/principles', description: 'Web design principles' },
     { name: 'Writing', link: '//jxnblk.com/writing', description: 'Articles and blog posts' },
     { name: 'Reading List', link: '//jxnblk.com/reading-list', description: 'Recommended reading' },
+    { name: 'Fitter Happier Text', link: '//jxnblk.com/fitter-happier-text', description: 'Performant, fully fluid heading' },
+    { name: 'Spectral', link: '//jxnblk.com/Spectral', description: 'Click the Rainbow' },
+    { name: 'Loading', link: '//jxnblk.com/loading', description: 'Animated SVG loading indicators' },
     { name: 'Ashley', link: '//jxnblk.com/Ashley', description: 'Readable Tumblr theme' },
     { name: 'Heather', link: '//jxnblk.com/Heather', description: 'Hyperminimal Jekyll theme' },
-    { name: 'Loading', link: '//jxnblk.com/loading', description: 'Animated SVG loading indicators' },
     { name: 'Twipster', link: '//jxnblk.com/Twipster', description: 'Simpler, Readabler Twitter' },
     { name: 'SoundRad', link: '//soundrad.com', description: 'A radically simpler and faster Soundcloud player' },
     { name: 'MrsJxn', link: '//mrsjxn.com', description: 'Post-future beats' },
     { name: 'Microbeats', link: '//microbeats.cc', description: 'Beats created in under an hour' },
     { name: 'Skullcat', link: '//jxnblk.com/skullcat', description: 'A avatar fur Mrmrs' },
     { name: 'Gifolio', link: '//jxnblk.com/gifolio', description: 'GIF portfolio' },
+    { name: 'Papercraft', link: '//jxnblk.com/papercraft', description: 'Hand-coded SVG experimental type' },
   ]
 };
 
