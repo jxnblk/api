@@ -43,6 +43,8 @@ data.projects = {
     { name: 'Writing', link: '//jxnblk.com/writing', description: 'Articles and Blog Posts' },
     { name: 'Reading List', link: '//jxnblk.com/reading-list', description: 'Recommended Reading' },
     { name: 'Fitter Happier Text', link: '//jxnblk.com/fitter-happier-text', description: 'Performant, Fully Fluid Heading' },
+    { name: 'Shade', link: '//jxnblk.com/shade', description: 'Mathematically-derived gradients' },
+    { name: 'Colorable', link: '//jxnblk.com/colorable', description: 'Color palette contrast tester' },
     { name: 'Spectral', link: '//jxnblk.com/Spectral', description: 'Click the Rainbow' },
     { name: 'Loading', link: '//jxnblk.com/loading', description: 'Animated SVG Loading Indicators' },
     { name: 'Ashley', link: '//jxnblk.com/Ashley', description: 'Readable Tumblr Theme' },
