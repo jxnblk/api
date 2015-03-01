@@ -113,7 +113,7 @@ data.projects = {
     { name: 'Skullcat', link: '//jxnblk.com/skullcat', description: 'A Avatar fur Mrmrs' },
     { name: 'Gifolio', link: '//jxnblk.com/gifolio', description: 'GIF Portfolio' },
     { name: 'Papercraft', link: '//jxnblk.com/papercraft', description: 'Hand-Coded SVG Lettering' },
-    { name: 'Stepkit', link: '//jxnblk.com/stepkit', description: 'Web Auto Step Sequencer' },
+    { name: 'Stepkit', link: '//jxnblk.com/stepkit', description: 'Web Audio Step Sequencer' },
   ]
 
 };
