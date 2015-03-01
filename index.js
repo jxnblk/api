@@ -1,6 +1,4 @@
 
-var fs = require('fs');
-
 var data = {};
 
 data.name = 'Brent Jackson';
@@ -22,31 +20,90 @@ data.social_networks = [
 data.projects = {
   featured: [
     {
-      name: 'Basscss', link: '//basscss.com',
-      description: 'Low-level CSS toolkit'
+      name: 'Basscss',
+      link: '//basscss.com',
+      description: 'Low-level CSS toolkit',
+      color: 'white',
+      logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/bass-bolt.svg',
+      backgroundImage: 'linear-gradient(-45deg, rgba(255,63,0,.15), rgba(0,255,127,.1)), url(http://d2v52k3cl9vedd.cloudfront.net/assets/images/triangles.svg)',
+      backgroundColor: 'black',
+      customClass: 'caps left-align bg-cover bg-center',
     },
     {
-      name: 'CSS Stats', link: '//cssstats.com',
-      description: 'CSS parsing tool'
+      name: 'CSS Stats',
+      link: '//cssstats.com',
+      description: 'CSS parsing tool',
+      logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/cssstats.svg',
+      color: 'black',
+      backgroundColor: 'white',
+      customClass: 'border-gray',
     },
     {
-      name: 'Geomicons', link: '//geomicons.com',
-      description: 'Open source icons for the web'
+      name: 'Geomicons',
+      link: '//geomicons.com',
+      description: 'Open source icons for the web',
+      logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/geomicons-heart.svg',
+      color: 'white',
+      backgroundColor: 'black',
+      backgroundImage: 'url(http://d2v52k3cl9vedd.cloudfront.net/assets/images/geomicons-grid.svg)',
     },
     {
-      name: 'Plangular', link: '//jxnblk.com/plangular',
-      description: 'Create custom Soundcloud players'
-    }
+      name: 'Shade',
+      link: '//jxnblk.com/shade',
+      description: 'Mathematically-derived gradients',
+      color: 'white',
+      backgroundColor: 'bright-blue',
+      backgroundImage: 'linear-gradient(-90deg, #F6FF00, #FF00A1)',
+      customClass: '', // Compensate for width bug
+    },
+    {
+      name: 'Colorable',
+      link: '//jxnblk.com/colorable',
+      description: 'Color palette contrast tester',
+      color: 'red',
+      backgroundColor: 'navy',
+      logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/colorable.svg',
+    },
+    {
+      name: 'Spectral',
+      link: '//jxnblk.com/Spectral',
+      description: 'Click the Rainbow',
+      //backgroundImage: 'url(http://d2v52k3cl9vedd.cloudfront.net/assets/images/spectral-background.svg)',
+      backgroundColor: 'bright-blue',
+      customClass: 'bg-cover bg-center',
+    },
+    {
+      name: 'Fitter Happier Text',
+      link: '//jxnblk.com/fitter-happier-text',
+      description: 'Performant, Fully Fluid Headings',
+      color: 'white',
+      backgroundColor: 'red',
+      //logoSvg: '<svg xmlns="http://www.w3.org/2000/svg" fill="white" overflow="visible" viewBox="0 0 222 22"> <style> text { font-family: "Avenir Next", "Helvetica Neue", Helvetica, sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .2em; } </style> <text x="50%" y="16" font-family="inherit" font-size="1rem" font-weight="inherit" style="text-anchor:middle">Fitter Happier Text</text> </svg>',
+      customClass: 'caps',
+    },
+    {
+      name: 'Plangular',
+      link: '//jxnblk.com/plangular',
+      description: 'Create custom Soundcloud players',
+      color: 'red',
+      backgroundColor: 'black',
+      logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/plangular.svg',
+      customClass: 'regular caps',
+    },
+    {
+      name: 'Loading',
+      link: '//jxnblk.com/loading',
+      description: 'Animated SVG Loading Indicators',
+      logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/loading-bubbles.svg',
+      color: 'white',
+      backgroundColor: 'purple'
+    },
   ],
+
   other: [
     { name: 'Principles', link: '//jxnblk.com/principles', description: 'Web Design Principles' },
-    { name: 'Writing', link: '//jxnblk.com/writing', description: 'Articles and Blog Posts' },
+    //{ name: 'Writing', link: '//jxnblk.com/writing', description: 'Articles and Blog Posts' },
     { name: 'Reading List', link: '//jxnblk.com/reading-list', description: 'Recommended Reading' },
-    { name: 'Fitter Happier Text', link: '//jxnblk.com/fitter-happier-text', description: 'Performant, Fully Fluid Heading' },
-    { name: 'Shade', link: '//jxnblk.com/shade', description: 'Mathematically-derived gradients' },
-    { name: 'Colorable', link: '//jxnblk.com/colorable', description: 'Color palette contrast tester' },
-    { name: 'Spectral', link: '//jxnblk.com/Spectral', description: 'Click the Rainbow' },
-    { name: 'Loading', link: '//jxnblk.com/loading', description: 'Animated SVG Loading Indicators' },
     { name: 'Ashley', link: '//jxnblk.com/Ashley', description: 'Readable Tumblr Theme' },
     { name: 'Heather', link: '//jxnblk.com/Heather', description: 'Hyperminimal Jekyll Theme' },
     { name: 'Twipster', link: '//jxnblk.com/Twipster', description: 'Simpler, Readabler Twitter' },
@@ -55,8 +112,10 @@ data.projects = {
     { name: 'Microbeats', link: '//microbeats.cc', description: 'Beats Created in Under an Hour' },
     { name: 'Skullcat', link: '//jxnblk.com/skullcat', description: 'A Avatar fur Mrmrs' },
     { name: 'Gifolio', link: '//jxnblk.com/gifolio', description: 'GIF Portfolio' },
-    { name: 'Papercraft', link: '//jxnblk.com/papercraft', description: 'Hand-coded SVG Lettering' },
+    { name: 'Papercraft', link: '//jxnblk.com/papercraft', description: 'Hand-Coded SVG Lettering' },
+    { name: 'Stepkit', link: '//jxnblk.com/stepkit', description: 'Web Auto Step Sequencer' },
   ]
+
 };
 
 data.writing = {
@@ -118,5 +177,6 @@ data.writing = {
   ]
 }
 
-fs.writeFileSync('index.json', JSON.stringify(data));
+module.exports = data;
+
 
